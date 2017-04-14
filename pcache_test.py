@@ -1,7 +1,7 @@
 import pcache
 import time
 
-cache = pcache.pcache("test.db", False)
+cache = pcache.load("test.db", True)
 
 cache.set("number", 100, 3)
 

@@ -3,6 +3,9 @@
 import pickledb
 import time
 
+def load(location, option):
+    return pcache(location, option)
+
 class pcache:
 
     def __init__(self, location, option):
